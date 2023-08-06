@@ -6,6 +6,7 @@ class Node {
 }
 
 class Stack {
+    
     size=0;
     #first = null;
     #last = null;
@@ -35,4 +36,5 @@ class Stack {
         this.size--;
         return removingNode.value;
     }
+
 }
